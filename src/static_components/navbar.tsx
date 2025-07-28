@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { slideToID } from '../Utility'
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -6,7 +7,7 @@ export default function Header() {
   const buttons = [
     {
       Label: "Songs",
-      OnClick: () => alert("Clicked")
+      OnClick: () => slideToID("songs")
     },
     {
       Label: "Genre",

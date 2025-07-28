@@ -12,6 +12,7 @@ export default function App() {
 
       <Hero OnHire={() => alert("Hiring...")}/>
 
+      <div id="songs"/>
       <Songs/>
     </div>
   )
