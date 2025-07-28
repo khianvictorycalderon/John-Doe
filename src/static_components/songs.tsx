@@ -16,7 +16,7 @@ export default function Songs() {
         {songs.map((song, index) => (
           <div
             key={index}
-            className="flex justify-between items-center bg-zinc-800 p-4 rounded-md border border-white/10 hover:bg-zinc-700 transition duration-300"
+            className="flex justify-between items-center bg-white/5 backdrop-blur-sm p-4 rounded-md border border-white/10 hover:bg-white/10 transition duration-300"
           >
             <div className="flex flex-col text-left">
               <span className="text-lg font-semibold text-white">{song.title}</span>
