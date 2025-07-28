@@ -9,7 +9,7 @@ export default function App() {
 
       <Navbar/>
 
-      <Hero OnLearnMore={() => alert("Learned more...")}/>
+      <Hero OnHire={() => alert("Learned more...")}/>
     </div>
   )
 }
