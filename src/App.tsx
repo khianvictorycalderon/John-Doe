@@ -1,6 +1,7 @@
 import DarkVeil from "./static_components/DarkVeil/DarkVeil";
 import Hero from "./static_components/hero";
 import Navbar from "./static_components/navbar";
+import Songs from "./static_components/songs";
 
 export default function App() {
   return (
@@ -10,6 +11,8 @@ export default function App() {
       <Navbar/>
 
       <Hero OnHire={() => alert("Hiring...")}/>
+
+      <Songs/>
     </div>
   )
 }
