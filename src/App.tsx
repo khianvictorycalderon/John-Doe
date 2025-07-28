@@ -1,4 +1,4 @@
-import DarkVeil from "./DarkVeil/DarkVeil";
+import DarkVeil from "./static_components/DarkVeil/DarkVeil";
 import Hero from "./static_components/hero";
 import Navbar from "./static_components/navbar";
 
