@@ -1,4 +1,5 @@
 import DarkVeil from "./static_components/DarkVeil/DarkVeil";
+import Genre from "./static_components/genre";
 import Hero from "./static_components/hero";
 import Navbar from "./static_components/navbar";
 import Songs from "./static_components/songs";
@@ -14,6 +15,9 @@ export default function App() {
 
       <div id="songs"/>
       <Songs/>
+
+      <div id="genre"/>
+      <Genre/>
     </div>
   )
 }
