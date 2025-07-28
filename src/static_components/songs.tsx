@@ -30,8 +30,7 @@ export default function Songs() {
       </div>
 
       <p className="max-w-xl text-center text-gray-400 mt-10 text-base">
-        These tracks showcase John Doe's signature fusion of emotion-driven lyrics and electronic soundscapes.
-        Dive deeper into the catalog and discover more unforgettable melodies.
+        These songs show how I mix real feelings with electronic sounds. Check out more of my music and find something you'll enjoy.
       </p>
 
       <button
