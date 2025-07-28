@@ -11,7 +11,7 @@ export default function Genre() {
       <div className="max-w-5xl mx-auto text-center mb-12">
         <h2 className="text-4xl font-bold mb-4">Genres</h2>
         <p className="text-gray-300">
-          Explore the variety of sounds John Doe crafts through different genres.
+          Explore the different genres I composed my songs.
         </p>
       </div>
 
