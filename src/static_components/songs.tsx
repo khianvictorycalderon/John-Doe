@@ -29,6 +29,11 @@ export default function Songs() {
         ))}
       </div>
 
+      <p className="max-w-xl text-center text-gray-400 mt-10 text-base">
+        These tracks showcase John Doe's signature fusion of emotion-driven lyrics and electronic soundscapes.
+        Dive deeper into the catalog and discover more unforgettable melodies.
+      </p>
+
       <button
         onClick={() => alert("Loaded more songs.")}
         className="mt-10 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-md text-sm font-medium text-white transition cursor-pointer"
