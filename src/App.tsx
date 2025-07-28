@@ -1,7 +1,9 @@
+import DarkVeil from "./DarkVeil/DarkVeil";
+
 export default function App() {
   return (
-    <>
-      <h1 className="p-4">Hello World</h1>
-    </>
+    <div className="w-screen h-screen">
+      <DarkVeil/>
+    </div>
   )
 }
