@@ -1,8 +1,27 @@
 import { useState } from 'react'
-import { slideToID } from '../Utility'
+import { slideToID, useOnScrollAt } from '../Utility'
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+
+  const [navbarBG, setNavbarBG] = useState<string>("bg-transparent");
+  useOnScrollAt(
+    "hero",
+    () => {
+      if (window.innerWidth >= 768) { // md: breakpoint
+        setNavbarBG("bg-transparent");
+      } else {
+        setNavbarBG("bg-transparent"); // mobile stays transparent always
+      }
+    },
+    () => {
+      if (window.innerWidth >= 768) {
+        setNavbarBG("bg-black");
+      } else {
+        setNavbarBG("bg-transparent"); // mobile stays transparent always
+      }
+    }
+  );
 
   const buttons = [
     {
@@ -24,8 +43,8 @@ export default function Header() {
   ]
 
   return (
-    <header className="bg-transparent text-white">
-      <nav className="fixed top-0 left-0 w-full bg-transparent text-white z-40 p-4">
+    <header className="text-white">
+      <nav className={`fixed top-0 left-0 w-full ${navbarBG} text-white z-40 p-4`}>
         <div className="mx-auto flex max-w-7xl items-center justify-between">
           <div className="hidden md:flex items-center gap-2">
             <span className="text-lg font-bold">John Doe</span>
