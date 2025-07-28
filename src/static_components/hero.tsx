@@ -4,7 +4,7 @@ interface HeroProps {
 
 export default function Hero({ OnHire }: HeroProps) {
     return (
-        <section className="w-screen h-screen flex flex-col items-center justify-center bg-transparent text-white px-4 text-center">
+        <section id="hero" className="w-screen h-screen flex flex-col items-center justify-center bg-transparent text-white px-4 text-center">
             <h1 className="text-6xl md:text-7xl font-bold tracking-tight drop-shadow-sm animate-fade-in">
                 Hi, I'm <span className="text-indigo-400">John Doe</span>
             </h1>
