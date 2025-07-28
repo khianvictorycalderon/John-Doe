@@ -30,7 +30,7 @@ export default function Header() {
     },
     {
       Label: "Genre",
-      OnClick: () => alert("Clicked")
+      OnClick: () => slideToID("genre")
     },
     {
       Label: "Tours",
