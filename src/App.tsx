@@ -1,5 +1,6 @@
 import About from "./static_components/about";
 import DarkVeil from "./static_components/DarkVeil/DarkVeil";
+import Footer from "./static_components/footer";
 import Genre from "./static_components/genre";
 import Hero from "./static_components/hero";
 import HireMe from "./static_components/hire";
@@ -31,6 +32,8 @@ export default function App() {
 
       <div id="hire"/>
       <HireMe/>
+
+      <Footer/>
     </div>
   )
 }
