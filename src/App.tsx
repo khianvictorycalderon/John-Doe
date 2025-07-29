@@ -3,6 +3,7 @@ import Genre from "./static_components/genre";
 import Hero from "./static_components/hero";
 import Navbar from "./static_components/navbar";
 import Songs from "./static_components/songs";
+import Tours from "./static_components/tours";
 
 export default function App() {
   return (
@@ -18,6 +19,9 @@ export default function App() {
 
       <div id="genre"/>
       <Genre/>
+
+      <div id="tours"/>
+      <Tours/>
     </div>
   )
 }
