@@ -1,3 +1,4 @@
+import About from "./static_components/about";
 import DarkVeil from "./static_components/DarkVeil/DarkVeil";
 import Genre from "./static_components/genre";
 import Hero from "./static_components/hero";
@@ -22,6 +23,9 @@ export default function App() {
 
       <div id="tours"/>
       <Tours/>
+
+      <div id="about"/>
+      <About/>
     </div>
   )
 }
