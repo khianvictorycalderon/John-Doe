@@ -6,6 +6,7 @@ import HireMe from "./static_components/hire";
 import Navbar from "./static_components/navbar";
 import Songs from "./static_components/songs";
 import Tours from "./static_components/tours";
+import { slideToID } from "./Utility";
 
 export default function App() {
   return (
@@ -14,7 +15,7 @@ export default function App() {
 
       <Navbar/>
 
-      <Hero OnHire={() => alert("Hiring...")}/>
+      <Hero OnHire={() => slideToID("hire")}/>
 
       <div id="songs"/>
       <Songs/>
