@@ -38,7 +38,7 @@ export default function Header() {
     },
     {
       Label: "About Me",
-      OnClick: () => alert("Clicked")
+      OnClick: () => slideToID("about")
     },
   ]
 
