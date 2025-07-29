@@ -1,6 +1,9 @@
 # John Doe
 A demo music artist portfolio website.
 
+# DISCLAIMER
+This project is for demonstration purposes only and does not represent a real person. Any resemblance to actual individuals is purely coincidental.
+
 ## To run this project (General Steps):
 1. Clone this repository `git clone https://github.com/khianvictorycalderon/John-Doe.git`
 2. Run `npm install`
