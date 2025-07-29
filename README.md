@@ -15,7 +15,7 @@ This section is provided for reference only, to give you insight into how the pr
 - `npm install tailwindcss @tailwindcss/vite`
 - `npm install -D @types/node`
 - `npm i ogl`
-- `npx shadcn@latest init`
+- `npm i gh-pages -D`
 
 ## Configuration Dependencies
 - Update `src/index.css`:
