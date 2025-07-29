@@ -27,11 +27,11 @@ const Container = () => {
       {tourData.map((tour, index) => (
         <div
           key={index}
-          className="relative h-64 rounded-lg overflow-hidden shadow-lg bg-cover bg-center"
+          className="relative h-64 rounded-lg overflow-hidden shadow-lg bg-cover bg-center transform transition hover:scale-[1.02]"
           style={{ backgroundImage: `url(${tour.image})` }}
         >
-          <div className="absolute bottom-0 left-0 right-0 bg-black/60 p-4">
-            <h2 className="text-2xl font-semibold text-white mb-1">{tour.city}</h2>
+          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent backdrop-blur-sm p-4">
+            <h2 className="text-2xl font-semibold text-white mb-1">🎤 {tour.city}</h2>
             <p className="text-sm text-gray-300">{tour.description}</p>
           </div>
         </div>
