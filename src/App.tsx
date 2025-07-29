@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import About from "./static_components/about";
 import DarkVeil from "./static_components/DarkVeil/DarkVeil";
 import Footer from "./static_components/footer";
@@ -10,6 +11,11 @@ import Tours from "./static_components/tours";
 import { slideToID } from "./Utility";
 
 export default function App() {
+
+  useEffect(() => {
+    alert("This website is for demonstration purposes only and does not represent a real person. Any resemblance to actual individuals is purely coincidental.");
+  }, []);
+
   return (
     <div className="text-gray-50">
       <DarkVeil/>
